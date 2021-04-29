@@ -1,0 +1,112 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0px;
+  padding:0px;
+  font:poppins;
+  background-color:red; 
+}
+#main{
+  width:100%;
+  height:50vh;
+  position:relative;
+}
+nav{
+  display:flex;
+justify-content:space-around;
+align-items:center;
+position: fixed;
+top:0;
+left:0;
+width:100%;
+background-color:black;
+box-shadow:5px 10px 30px rgba(0, 0, 0, 0.03);
+z-index: 1;
+}
+
+.logo img{
+height:120px;
+}
+
+.menu {
+  list-style:none;
+  display:flex;
+}
+
+.menu li a{
+  height:40px;
+  line-height:43px;
+  margin:3px;
+  padding:0px 22px;
+  display: flex;
+  font-size:1em;
+  text-transform:uppercase;
+  font-weight:500;
+  letter-spacing:1px;
+  color:red;
+}
+
+a{
+  text-decoration:none;
+}
+
+.helo {
+  color:blue;
+  font-weight:500;
+  font-size:1em;
+  border-bottom:2px solid :-moz-only-whitespace;
+   
+}
+
+.image{
+  width:1200px;
+  height:700px; 
+
+}
+
+.image img{
+  width:100%;
+  height:100%;
+  object-fit:contain;
+}
+
+.portfolio{
+display: flex;
+width:90%;
+justify-content:space-around;
+align-items:center;
+position: absolute;
+left:50%;
+right:50%;
+transform: translate(-50% ,-50%);
+}
+
+.main-text{
+  width:500px;
+}
+
+.main-text h1{
+  font-size:3.5em;
+  color:white;
+  margin:0px 0px 0px 15px;
+  line-height:60px;
+}
+
+.main-text p{
+  color:whitesmoke;
+  margin:15px 0px 0px 15px;
+}
+
+.profile-btn{
+  width:110px;
+  height:22px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:aquamarine;
+  background-color:black;
+  border-radius:10px;
+  box-shadow:5px 10px 30px rgba(135, 223, 245, 0.03);
+  margin:15px 0px 0px 15px;
+}
